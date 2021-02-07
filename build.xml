@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="JacocoDmo" xmlns:jacoco="antlib:org.jacoco.ant" default="jacoco">
   <!--Jacoco 的安装路径-->
-  <property name="jacocoantPath" value="F:\jacoco-0.8.6\lib\jacocoant.jar"/>
+  <property name="jacocoantPath" value="D:\jacoco-0.8.6\lib\jacocoant.jar"/>
   <!--最终生成 .exec 文件的路径，Jacoco 就是根据这个文件生成最终的报告的-->
-  <property name="jacocoexecPath" value="C:\Users\Administrator\Desktop\jacoco-demo\target\coverage\jacoco-integation.exec"/>
+  <property name="jacocoexecPath" value="D:\Idea\jacoco-demo\target\coverage\jacoco-integation.exec"/>
   <!--生成覆盖率报告的路径-->
-  <property name="reportfolderPath" value="C:\Users\Administrator\Desktop\jacoco-demo\jacoco-report"/>
+  <property name="reportfolderPath" value="D:\Idea\jacoco-demo\jacoco-report"/>
   <!--远程 Tomcat 服务的 ip 地址-->
   <property name="server_ip" value="127.0.0.1"/>
   <!--前面配置的远程 Tomcat 服务打开的端口，要跟上面配置的一样-->
   <property name="server_port" value="9999"/>
   <!--源代码路径-->
-  <property name="checkOrderSrcPath" value="C:\Users\Administrator\Desktop\jacoco-demo\src\main\java" />
+  <property name="checkOrderSrcPath" value="D:\Idea\jacoco-demo\src\main\java" />
   <!--.class 文件路径-->
-  <property name="checkOrderClasspath" value="C:\Users\Administrator\Desktop\jacoco-demo\target\classes" />
+  <property name="checkOrderClasspath" value="D:\Idea\jacoco-demo\target\classes" />
 
   <!--让 ant 知道去哪儿找 Jacoco-->
   <taskdef uri="antlib:org.jacoco.ant" resource="org/jacoco/ant/antlib.xml">
